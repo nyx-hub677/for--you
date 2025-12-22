@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 25.2.3.2 (Linux)"/>
+	<meta name="created" content="00:00:00"/>
+	<meta name="changed" content="00:00:00"/>
+	<style type="text/css">
+		@page { size: 8.27in 11.69in; margin: 0.79in }
+		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
+		pre { font-size: 10pt; font-family: "Liberation Mono", monospace; background: transparent }
+	</style>
+</head>
+<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;For you.&lt;/title&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+
+  &lt;style&gt;
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f5efe6; /* light brown */
+      font-family: 'Georgia', serif;
+      color: #3b2f2f;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 80px auto;
+      padding: 40px;
+      background: #fffaf3;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      position: relative;
+    }
+
+    h1 {
+      text-align: center;
+      font-weight: normal;
+      letter-spacing: 1px;
+    }
+
+    .note {
+      text-align: center;
+      margin: 30px 0;
+      font-style: italic;
+      padding: 15px 25px;
+      background: #f3e5d1;
+      border-radius: 25px; /* pill-shaped */
+      display: inline-block;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      margin: 15px 0;
+      border: none;
+      border-radius: 30px;
+      background: #d6bfae;
+      color: #3b2f2f;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #c8ad9a;
+    }
+
+    .text {
+      display: none;
+      margin-top: 30px;
+      line-height: 1.8;
+    }
+
+    .flower {
+      position: absolute;
+      width: 80px;
+      opacity: 0.7;
+    }
+
+    .f1 { top: -30px; left: -30px; }
+    .f2 { bottom: -30px; right: -30px; }
+
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;!-- flowers --&gt;
+    &lt;img src=&quot;https://i.imgur.com/4Z7ZK5U.png&quot; class=&quot;flower f1&quot;&gt;
+    &lt;img src=&quot;https://i.imgur.com/4Z7ZK5U.png&quot; class=&quot;flower f2&quot;&gt;
+
+    &lt;h1&gt;For you.&lt;/h1&gt;
+
+    &lt;div class=&quot;note&quot;&gt;
+      before the year ends&lt;br&gt;
+      tap below
+    &lt;/div&gt;
+
+    &lt;!-- buttons --&gt;
+    &lt;button onclick=&quot;showNewYear()&quot;&gt;Happy New Year&lt;/button&gt;
+    &lt;button onclick=&quot;showTruth()&quot;&gt;A Little Truth&lt;/button&gt;
+
+    &lt;!-- text sections --&gt;
+    &lt;div id=&quot;newyear&quot; class=&quot;text&quot;&gt;
+      I hope the coming year is gentle with you.&lt;br&gt;
+      I hope you smile more, worry less, and feel loved in ways you don’t expect.&lt;br&gt;&lt;br&gt;
+      May this year bring you peace, warmth, and moments that make you feel truly happy.
+    &lt;/div&gt;
+
+    &lt;div id=&quot;truth&quot; class=&quot;text&quot;&gt;
+      There’s something I’ve been wanting to say before the year ends.&lt;br&gt;&lt;br&gt;
+
+      I like you — deeply and genuinely.&lt;br&gt;
+      I like your name, the way it stays in my head.&lt;br&gt;
+      I like your voice, how it softens everything around me.&lt;br&gt;
+      I like your hair — it’s honestly gorgeous.&lt;br&gt;&lt;br&gt;
+
+      The way you talk to me always makes me happy.&lt;br&gt;
+      Your presence alone can turn an ordinary day into a good one.&lt;br&gt;&lt;br&gt;
+
+      I love being around you.&lt;br&gt;
+      I wish I could live by your side, sharing moments, laughter, and time — for as long as life allows.&lt;br&gt;&lt;br&gt;
+
+      I’m not saying this to pressure you.&lt;br&gt;
+      I just couldn’t step into a new year without being honest.&lt;br&gt;&lt;br&gt;
+
+      Whatever you feel is okay.&lt;br&gt;
+      I just wanted you to know how much you mean to me.
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+  &lt;script&gt;
+    function showNewYear() {
+      document.getElementById(&quot;newyear&quot;).style.display = &quot;block&quot;;
+      document.getElementById(&quot;truth&quot;).style.display = &quot;none&quot;;
+    }
+
+    function showTruth() {
+      document.getElementById(&quot;truth&quot;).style.display = &quot;block&quot;;
+      document.getElementById(&quot;newyear&quot;).style.display = &quot;none&quot;;
+    }
+  &lt;/script&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+</body>
+</html>
